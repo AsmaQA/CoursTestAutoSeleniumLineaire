@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.lieairecode.StSauceLabs">
+      <class name="com.lieairecode.TestStSauceLabs">
         <methods>
           <include name="setupbeforeMethode"/>
-          <include name="getActualDateTime"/>
           <include name="tearDownTest"/>
-          <include name="setupbeforeTest"/>
+          <include name="getActualDateTime"/>
           <include name="addToCartInexistentProductTest"/>
+          <include name="setupbeforeTest"/>
+          <include name="logoutTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.lieairecode.StSauceLabs -->
+      </class> <!-- com.lieairecode.TestStSauceLabs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-04T18:41:43 CET" name="Surefire suite" finished-at="2025-08-04T18:42:21 CET" duration-ms="38617">
+    <groups>
+    </groups>
+    <test started-at="2025-08-04T18:41:43 CET" name="Surefire test" finished-at="2025-08-04T18:42:21 CET" duration-ms="38617">
+      <class name="com.lieairecode.TestStSauceLabs">
+        <test-method is-config="true" signature="setupbeforeTest()[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:43 CET" name="setupbeforeTest" finished-at="2025-08-04T18:41:45 CET" duration-ms="2576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeTest -->
+        <test-method is-config="true" signature="getActualDateTime()[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:45 CET" name="getActualDateTime" finished-at="2025-08-04T18:41:45 CET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getActualDateTime -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:45 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:46 CET" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.failedLoginTest()[pri:1, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="failedLoginTest()[pri:1, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:46 CET" name="failedLoginTest" finished-at="2025-08-04T18:41:46 CET" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:46 CET" name="tearDown" finished-at="2025-08-04T18:41:46 CET" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failedLoginTest status=SUCCESS method=TestStSauceLabs.failedLoginTest()[pri:1, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:46 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:46 CET" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.lockedOutUserTest()[pri:2, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="lockedOutUserTest()[pri:2, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:46 CET" name="lockedOutUserTest" finished-at="2025-08-04T18:41:47 CET" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="tearDown" finished-at="2025-08-04T18:41:47 CET" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedOutUserTest status=SUCCESS method=TestStSauceLabs.lockedOutUserTest()[pri:2, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:47 CET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.validLoginTest()[pri:3, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="validLoginTest()[pri:3, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="validLoginTest" finished-at="2025-08-04T18:41:47 CET" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="tearDown" finished-at="2025-08-04T18:41:47 CET" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=TestStSauceLabs.validLoginTest()[pri:3, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:47 CET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.addToCartTest()[pri:4, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="addToCartTest()[pri:4, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="addToCartTest" finished-at="2025-08-04T18:41:47 CET" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:47 CET" name="tearDown" finished-at="2025-08-04T18:41:48 CET" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartTest status=SUCCESS method=TestStSauceLabs.addToCartTest()[pri:4, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:48 CET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.viewCartTest()[pri:5, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="viewCartTest()[pri:5, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="viewCartTest" finished-at="2025-08-04T18:41:48 CET" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="tearDown" finished-at="2025-08-04T18:41:48 CET" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewCartTest status=SUCCESS method=TestStSauceLabs.viewCartTest()[pri:5, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:48 CET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.removeFromCartTest()[pri:6, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="removeFromCartTest()[pri:6, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="removeFromCartTest" finished-at="2025-08-04T18:41:48 CET" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCartTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="tearDown" finished-at="2025-08-04T18:41:48 CET" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromCartTest status=SUCCESS method=TestStSauceLabs.removeFromCartTest()[pri:6, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:48 CET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.checkoutTest()[pri:7, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="checkoutTest()[pri:7, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:48 CET" name="checkoutTest" finished-at="2025-08-04T18:41:49 CET" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:49 CET" name="tearDown" finished-at="2025-08-04T18:41:49 CET" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=TestStSauceLabs.checkoutTest()[pri:7, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:49 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:49 CET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.filterProductsTest()[pri:8, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="filterProductsTest()[pri:8, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:49 CET" name="filterProductsTest" finished-at="2025-08-04T18:41:49 CET" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProductsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:49 CET" name="tearDown" finished-at="2025-08-04T18:41:49 CET" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterProductsTest status=SUCCESS method=TestStSauceLabs.filterProductsTest()[pri:8, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:49 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:41:49 CET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.addToCartInexistentProductTest()[pri:9, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="addToCartInexistentProductTest()[pri:9, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:41:49 CET" name="addToCartInexistentProductTest" finished-at="2025-08-04T18:42:20 CET" duration-ms="30349" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button[19] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\sliti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63879/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f56317c598474bfb8ce45506bb525d5f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button[19] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\sliti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63879/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f56317c598474bfb8ce45506bb525d5f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.lieairecode.TestStSauceLabs.addToCartInexistentProductTest(TestStSauceLabs.java:303)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartInexistentProductTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:42:20 CET" name="tearDown" finished-at="2025-08-04T18:42:20 CET" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartInexistentProductTest status=FAILURE method=TestStSauceLabs.addToCartInexistentProductTest()[pri:9, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupbeforeMethode(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:42:20 CET" name="setupbeforeMethode" finished-at="2025-08-04T18:42:20 CET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestStSauceLabs.logoutTest()[pri:10, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeMethode -->
+        <test-method signature="logoutTest()[pri:10, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:42:20 CET" name="logoutTest" finished-at="2025-08-04T18:42:21 CET" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:42:21 CET" name="tearDown" finished-at="2025-08-04T18:42:21 CET" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=TestStSauceLabs.logoutTest()[pri:10, instance:com.lieairecode.TestStSauceLabs@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.lieairecode.TestStSauceLabs@4310d43]" started-at="2025-08-04T18:42:21 CET" name="tearDownTest" finished-at="2025-08-04T18:42:21 CET" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.lieairecode.TestStSauceLabs -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
