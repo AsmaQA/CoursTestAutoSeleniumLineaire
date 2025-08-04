@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceLabsTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SauceLabsTests(failed)">
+    <parameter name="baseUrl" value="https://www.saucedemo.com"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.lieairecode.StSauceLabs">
+        <methods>
+          <include name="addToCartinexsitantproductTest"/>
+          <include name="setContext"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lieairecode.StSauceLabs -->
+    </classes>
+  </test> <!-- SauceLabsTests(failed) -->
+</suite> <!-- Failed suite [SauceLabsTestSuite] -->
