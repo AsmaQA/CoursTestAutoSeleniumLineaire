@@ -10,7 +10,7 @@
           <include name="getActualDateTime"/>
           <include name="addToCartInexistentProductTest"/>
           <include name="setupbeforeTest"/>
-          <include name="logoutTest"/>
+          <include name="failedLoginTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.lieairecode.TestStSauceLabs -->

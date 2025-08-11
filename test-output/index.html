@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sliti\AppData\Local\Temp\testng-eclipse-814574043\testng-customsuite.xml</span>
+                    <span>C:\Users\sliti\AppData\Local\Temp\testng-eclipse-1900488701\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,  1 skipped,  8 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,21 +106,12 @@
                         <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="addToCartInexistentProductTest">addToCartInexistentProductTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Default_suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="failedLoginTest">failedLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -141,17 +132,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="failedLoginTest">failedLoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="filterProductsTest">filterProductsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="lockedOutUserTest">lockedOutUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.lieairecode.TestStSauceLabs" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -193,9 +184,14 @@
                   </a> <!-- addToCartInexistentProductTest -->
                   <span class="method-name">addToCartInexistentProductTest</span>
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button[19] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:debuggerAddress: 127.0.0.1:17431, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14492, moz:profile: C:\Users\sliti\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:17431/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 23385433-e785-44fc-9e24-71c7bc6d2570
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.lieairecode.TestStSauceLabs.addToCartInexistentProductTest(TestStSauceLabs.java:302)
+	at com.lieairecode.TestStSauceLabs.addToCartInexistentProductTest(TestStSauceLabs.java:304)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -222,83 +218,28 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=138.0.7204.183)
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [44aa4a2a6a0db2bb75d4ba2d0ee6b148, findElement {value=/html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button[19], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\sliti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63729/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 44aa4a2a6a0db2bb75d4ba2d0ee6b148
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 27 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-          <div class="suite-Default_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.lieairecode.TestStSauceLabs</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logoutTest">
-                  </a> <!-- logoutTest -->
-                  <span class="method-name">logoutTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=138.0.7204.183)
+                  <a name="failedLoginTest">
+                  </a> <!-- failedLoginTest -->
+                  <span class="method-name">failedLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),&apos;Epic sadface: Username and password&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [44aa4a2a6a0db2bb75d4ba2d0ee6b148, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\sliti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63729/devtoo..., se:cdpVersion: 138.0.7204.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 44aa4a2a6a0db2bb75d4ba2d0ee6b148
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:323)
-	at com.lieairecode.TestStSauceLabs.getScreenshotPath(TestStSauceLabs.java:108)
-	at com.lieairecode.TestStSauceLabs.tearDown(TestStSauceLabs.java:341)
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.2, moz:accessibilityChecks: false, moz:buildID: 20250120135430, moz:debuggerAddress: 127.0.0.1:17431, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14492, moz:profile: C:\Users\sliti\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:17431/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 23385433-e785-44fc-9e24-71c7bc6d2570
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.lieairecode.TestStSauceLabs.failedLoginTest(TestStSauceLabs.java:138)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
@@ -326,7 +267,7 @@ Session ID: 44aa4a2a6a0db2bb75d4ba2d0ee6b148
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-skipped -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -349,13 +290,6 @@ Session ID: 44aa4a2a6a0db2bb75d4ba2d0ee6b148
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="failedLoginTest">
-                  </a> <!-- failedLoginTest -->
-                  <span class="method-name">failedLoginTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="filterProductsTest">
                   </a> <!-- filterProductsTest -->
                   <span class="method-name">filterProductsTest</span>
@@ -366,6 +300,13 @@ Session ID: 44aa4a2a6a0db2bb75d4ba2d0ee6b148
                   <a name="lockedOutUserTest">
                   </a> <!-- lockedOutUserTest -->
                   <span class="method-name">lockedOutUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -394,7 +335,7 @@ Session ID: 44aa4a2a6a0db2bb75d4ba2d0ee6b148
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sliti\AppData\Local\Temp\testng-eclipse-814574043\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sliti\AppData\Local\Temp\testng-eclipse-1900488701\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -445,50 +386,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addToCartInexistentProductTest')
+data.setCell(0, 1, 'failedLoginTest')
 data.setCell(0, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(0, 3, 30510);
+data.setCell(0, 3, 30879);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkoutTest')
+data.setCell(1, 1, 'addToCartInexistentProductTest')
 data.setCell(1, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(1, 3, 850);
+data.setCell(1, 3, 30328);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validLoginTest')
+data.setCell(2, 1, 'checkoutTest')
 data.setCell(2, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(2, 3, 602);
+data.setCell(2, 3, 1256);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'filterProductsTest')
 data.setCell(3, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(3, 3, 563);
+data.setCell(3, 3, 1093);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'failedLoginTest')
+data.setCell(4, 1, 'validLoginTest')
 data.setCell(4, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(4, 3, 504);
+data.setCell(4, 3, 736);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'lockedOutUserTest')
 data.setCell(5, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(5, 3, 434);
+data.setCell(5, 3, 684);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addToCartTest')
+data.setCell(6, 1, 'logoutTest')
 data.setCell(6, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(6, 3, 215);
+data.setCell(6, 3, 674);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'viewCartTest')
+data.setCell(7, 1, 'addToCartTest')
 data.setCell(7, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(7, 3, 203);
+data.setCell(7, 3, 389);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'removeFromCartTest')
+data.setCell(8, 1, 'viewCartTest')
 data.setCell(8, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(8, 3, 174);
+data.setCell(8, 3, 372);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'logoutTest')
+data.setCell(9, 1, 'removeFromCartTest')
 data.setCell(9, 2, 'com.lieairecode.TestStSauceLabs')
-data.setCell(9, 3, 0);
+data.setCell(9, 3, 301);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -521,135 +462,135 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">getActualDateTime</span>
-                <span class="method-start">5116 ms</span>
+                <span class="method-start">9123 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.failedLoginTest()[pri:1, instance:com....)</span>
-                <span class="method-start">5141 ms</span>
+                <span class="method-start">9154 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">failedLoginTest</span>
-                <span class="method-start">5380 ms</span>
+                <span class="method-start">9642 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=failedLoginTest status=SUCCESS method=TestStSauceLabs.failedLoginTest()[pri:1, inst...)</span>
-                <span class="method-start">5896 ms</span>
+                <span class="method-name">tearDown([TestResult name=failedLoginTest status=FAILURE method=TestStSauceLabs.failedLoginTest()[pri:1, inst...)</span>
+                <span class="method-start">40587 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.lockedOutUserTest()[pri:2, instance:co...)</span>
-                <span class="method-start">6062 ms</span>
+                <span class="method-start">42846 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">lockedOutUserTest</span>
-                <span class="method-start">6071 ms</span>
+                <span class="method-start">42856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=lockedOutUserTest status=SUCCESS method=TestStSauceLabs.lockedOutUserTest()[pri:2, ...)</span>
-                <span class="method-start">6509 ms</span>
+                <span class="method-start">43547 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.validLoginTest()[pri:3, instance:com.l...)</span>
-                <span class="method-start">6684 ms</span>
+                <span class="method-start">45738 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validLoginTest</span>
-                <span class="method-start">6695 ms</span>
+                <span class="method-start">45750 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=validLoginTest status=SUCCESS method=TestStSauceLabs.validLoginTest()[pri:3, instan...)</span>
-                <span class="method-start">7301 ms</span>
+                <span class="method-start">46496 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.addToCartTest()[pri:4, instance:com.li...)</span>
-                <span class="method-start">7761 ms</span>
+                <span class="method-start">48777 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addToCartTest</span>
-                <span class="method-start">7786 ms</span>
+                <span class="method-start">48792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=addToCartTest status=SUCCESS method=TestStSauceLabs.addToCartTest()[pri:4, instance...)</span>
-                <span class="method-start">8005 ms</span>
+                <span class="method-start">49187 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.viewCartTest()[pri:5, instance:com.lie...)</span>
-                <span class="method-start">8364 ms</span>
+                <span class="method-start">51509 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">viewCartTest</span>
-                <span class="method-start">8371 ms</span>
+                <span class="method-start">51522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=viewCartTest status=SUCCESS method=TestStSauceLabs.viewCartTest()[pri:5, instance:c...)</span>
-                <span class="method-start">8579 ms</span>
+                <span class="method-start">51914 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.removeFromCartTest()[pri:6, instance:c...)</span>
-                <span class="method-start">8906 ms</span>
+                <span class="method-start">54022 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeFromCartTest</span>
-                <span class="method-start">8914 ms</span>
+                <span class="method-start">54038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=removeFromCartTest status=SUCCESS method=TestStSauceLabs.removeFromCartTest()[pri:6...)</span>
-                <span class="method-start">9092 ms</span>
+                <span class="method-start">54349 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.checkoutTest()[pri:7, instance:com.lie...)</span>
-                <span class="method-start">9404 ms</span>
+                <span class="method-start">56448 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkoutTest</span>
-                <span class="method-start">9411 ms</span>
+                <span class="method-start">56459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkoutTest status=SUCCESS method=TestStSauceLabs.checkoutTest()[pri:7, instance:c...)</span>
-                <span class="method-start">10264 ms</span>
+                <span class="method-start">57727 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.filterProductsTest()[pri:8, instance:c...)</span>
-                <span class="method-start">10557 ms</span>
+                <span class="method-start">59900 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">filterProductsTest</span>
-                <span class="method-start">10571 ms</span>
+                <span class="method-start">59917 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=filterProductsTest status=SUCCESS method=TestStSauceLabs.filterProductsTest()[pri:8...)</span>
-                <span class="method-start">11138 ms</span>
+                <span class="method-start">61022 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.addToCartInexistentProductTest()[pri:9...)</span>
-                <span class="method-start">11512 ms</span>
+                <span class="method-start">63298 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addToCartInexistentProductTest</span>
-                <span class="method-start">11524 ms</span>
+                <span class="method-start">63320 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown([TestResult name=addToCartInexistentProductTest status=FAILURE method=TestStSauceLabs.addToCartInexi...)</span>
-                <span class="method-start">42051 ms</span>
+                <span class="method-start">93656 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setupbeforeMethode</span>
-                <span class="method-start">42074 ms</span>
+                <span class="method-name">setupbeforeMethode([TestResult name={null} status=CREATED method=TestStSauceLabs.logoutTest()[pri:10, instance:com.liea...)</span>
+                <span class="method-start">95899 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logoutTest</span>
-                <span class="method-start">42081 ms</span>
+                <span class="method-start">95909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">42096 ms</span>
+                <span class="method-name">tearDown([TestResult name=logoutTest status=SUCCESS method=TestStSauceLabs.logoutTest()[pri:10, instance:com....)</span>
+                <span class="method-start">96587 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDownTest</span>
-                <span class="method-start">42103 ms</span>
+                <span class="method-start">98745 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

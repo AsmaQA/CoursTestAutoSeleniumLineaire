@@ -71,8 +71,8 @@ public class TestStSauceLabs {
 
 		String reportName = "target/Spark/SparkReport_" + getActualDateTime() + ".html";
 		ExtentSparkReporter spark = new ExtentSparkReporter(reportName);
-		spark.config().setTheme(Theme.DARK); // Choix du thème (DARK, STANDARD)
-		spark.config().setDocumentTitle("SauceDemo Test Report"); // Titre du document
+		spark.config().setTheme(Theme.DARK); // Choix du thï¿½me (DARK, STANDARD)
+		//spark.config().setDocumentTitle("SauceDemo Test Report"); // Titre du document
 		spark.config().setReportName("Automated Test Suite Report"); // Nom du rapport
 		spark.config().setTimeStampFormat("dd/MM/yyyy HH:mm:ss"); // Format de l'horodatage
 		spark.config().setReportName("Asma's Report"); // Remplacez par votre nom
@@ -80,7 +80,8 @@ public class TestStSauceLabs {
 		// Optional: Add a footer or header
 		extent = new ExtentReports();
 		extent.attachReporter(spark);
-		String browser = prop.getProperty("browser", "chrome");
+		
+		String browser = prop.getProperty("browser");
 		if (browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -226,7 +227,7 @@ public class TestStSauceLabs {
 	public void removeFromCartTest() throws IOException, ATUTestRecorderException {
 		test = extent.createTest("Remove from Cart Test");
 		try {
-			// Assurez-vous que l'utilisateur est connecté avant de retirer un produit
+			// Assurez-vous que l'utilisateur est connectï¿½ avant de retirer un produit
 			WebElement removeButton = wait
 					.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".cart_button")));
 			removeButton.click();
@@ -288,10 +289,10 @@ public class TestStSauceLabs {
 				}
 				previousPrice = currentPrice;
 			}
-			Assert.assertTrue(isSorted, "Les produits ne sont pas triés par prix!");
-			test.pass("Filtre des produits appliqué avec succès.");
+			Assert.assertTrue(isSorted, "Les produits ne sont pas triï¿½s par prix!");
+			test.pass("Filtre des produits appliquï¿½ avec succï¿½s.");
 		} catch (AssertionError e) {
-			test.fail("Échec de l'application du filtre des produits: " + e.getMessage());
+			test.fail("ï¿½chec de l'application du filtre des produits: " + e.getMessage());
 			throw e;
 		}
 	}
@@ -342,7 +343,7 @@ public class TestStSauceLabs {
 		test.addScreenCaptureFromPath(getScreenshotPath(""));
 
 		test.log(Status.INFO,
-				"Vidéo ajoutée au rapport: <a href='" + VIDEO_LOCATION + "'>Cliquez ici pour voir la vidéo</a>");
+				"Vidï¿½o ajoutï¿½e au rapport: <a href='" + VIDEO_LOCATION + "'>Cliquez ici pour voir la vidï¿½o</a>");
 
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			test.log(Status.PASS, "Test passed.");
