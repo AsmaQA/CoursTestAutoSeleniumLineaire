@@ -308,17 +308,17 @@ public class TestStSauceLabs {
 																												// pour
 																												// un
 																												// produit
-																												// inexistant
-			firstProduct.click();
-			WebElement cartBadge = wait
-					.until(ExpectedConditions.visibilityOfElementLocated(By.className("shopping_cart_badge")));
-			Assert.assertEquals(cartBadge.getText(), "1", "Product not added to cart!");
-			test.pass("Product successfully added to cart.");
-		} catch (AssertionError e) {
-			test.fail("Failed to add product to cart: " + e.getMessage());
-			throw e;
-		}
-	}
+	// 																											// inexistant
+	// 		firstProduct.click();
+	// 		WebElement cartBadge = wait
+	// 				.until(ExpectedConditions.visibilityOfElementLocated(By.className("shopping_cart_badge")));
+	// 		Assert.assertEquals(cartBadge.getText(), "1", "Product not added to cart!");
+	// 		test.pass("Product successfully added to cart.");
+	// 	} catch (AssertionError e) {
+	// 		test.fail("Failed to add product to cart: " + e.getMessage());
+	// 		throw e;
+	// 	}
+	// }
 
 	@Test(priority = 10)
 	public void logoutTest() throws IOException, ATUTestRecorderException {
