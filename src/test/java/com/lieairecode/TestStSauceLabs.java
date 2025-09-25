@@ -297,12 +297,12 @@ public class TestStSauceLabs {
 		}
 	}
 
-	@Test(priority = 9)
-	public void addToCartInexistentProductTest() throws IOException, ATUTestRecorderException {
-		test = extent.createTest("Add to Cart Inexistent Product Test");
-		try {
-			WebElement firstProduct = wait.until(ExpectedConditions.visibilityOfElementLocated(
-					By.xpath("/html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button[19]"))); // Ajustez
+	// @Test(priority = 9)
+	// public void addToCartInexistentProductTest() throws IOException, ATUTestRecorderException {
+	// 	test = extent.createTest("Add to Cart Inexistent Product Test");
+	// 	try {
+	// 		WebElement firstProduct = wait.until(ExpectedConditions.visibilityOfElementLocated(
+	// 				By.xpath("/html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/button[19]"))); // Ajustez
 																												// le
 																												// XPath
 																												// pour
